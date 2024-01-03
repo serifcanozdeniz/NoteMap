@@ -37,9 +37,10 @@ aside{
     height: 110px;
     transition: height 1s;
 }
-.hide form,
-.hide ul {
-  display: none !important;
+  
+  .hide form,
+  .hide ul {
+    display: none !important;
 }
 aside:hover{
     background-color: rgb(53, 51, 51);
@@ -98,7 +99,7 @@ form select{
 }
 .buttons button:hover{
     filter: brightness(70%);
-    border: 2px solid purple;
+    border: 2px solid red;
 }
 /* listeleme alanı */
 ul{
